@@ -1,5 +1,5 @@
-import sys
-var1 = sys.argv[1]
+# import sys
+# var1 = sys.argv[1]
 
 
 def is_balanced(param):
@@ -40,8 +40,8 @@ def reverse(param):
         print(new_word)
 
 
-print(var1)
-reverse(var1)
+# print(var1)
+# reverse(var1)
 # print(is_balanced(var1))
 # print(is_palindrome(var1))
 
