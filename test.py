@@ -37,8 +37,7 @@ def reverse(param):
     new_word = ""
     for char in range(len(param)):
         new_word += param[(len(param) - 1) - char]
-        print(new_word)
-
+    return new_word
 
 # print(var1)
 # reverse(var1)
