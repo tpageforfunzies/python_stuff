@@ -39,8 +39,18 @@ def reverse(param):
         new_word += param[(len(param) - 1) - char]
     return new_word
 
+
+def github1():
+    nums = []
+    for i in range(2000, 3201):
+        if (i % 7 == 0) and (i % 5 != 0):
+            nums.append(str(i))
+    print ",".join(nums)
+    return nums
+
+
 # print(var1)
 # reverse(var1)
 # print(is_balanced(var1))
 # print(is_palindrome(var1))
-
+github1()

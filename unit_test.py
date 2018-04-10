@@ -28,3 +28,6 @@ def test_reverse():
 def test_f():
     with pytest.raises(SystemExit):
         f()
+
+def test_github1():
+    assert len(test.github1()) == 138
